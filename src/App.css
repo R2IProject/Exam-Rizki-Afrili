@@ -1,0 +1,123 @@
+/* Body */
+body{
+  margin: 0;
+  background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+  font-family: sans-serif;
+}
+/* Navbar */
+header{
+  color: #ffff;
+}
+.navbar{
+  color: #ffff;
+}
+#p{
+  font-size: 70%;
+}
+/* Card */
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.card{
+  width: 200px;
+  height: 300px;
+  background-color: rgba(4, 255, 0, 0);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.card img{
+  width: 100%;
+  height: auto;
+}
+
+.card-content h3{
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.card-content p{
+  color: #ffff;
+  font-size: 15px;
+}
+.card-content .btn{
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  margin-top: 16px;
+  color: #ffff;
+}
+#card{
+  color: #ffff;
+  font-size: 120%;
+}
+/* Table */
+.table{
+  text-align: left;
+  padding-bottom: 200px;
+}
+
+h1{
+  color: #ffff;
+}
+
+#no{
+  background-color: #485477;
+}
+
+table {
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+th {
+  padding: 15px;
+  background-color: #485477;
+  color: #ffff;
+}
+
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+td{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+tr:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+/* Grid */
+.grid-container{
+  justify-content: center;
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 300px 300px 300px;
+  grid-gap: 30px;
+  padding-bottom: 200px;
+}
+/* Nama */
+#nama{
+  background-color: #333;
+}
+
+echo "# Exam-Rizki-Afrili" >> README.md
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/R2IProject/Exam-Rizki-Afrili.git
+git push -u origin main
